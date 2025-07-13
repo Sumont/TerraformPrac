@@ -7,7 +7,7 @@ resource "aws_instance" "name" {
   
 }
 
-resource "aws_instance" "name" {
+resource "aws_instance" "name1" {
     ami = var.ami_id
     instance_type = "t2.micro"
     tags = {
